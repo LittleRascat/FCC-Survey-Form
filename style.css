@@ -1,0 +1,109 @@
+body {
+    background-color: lightgreen;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin: 0em;
+  }
+  
+  p {
+    font-size: 2rem;
+    margin: 0em;
+  }
+  
+  #survey-form {
+    background-color: lightblue;
+    font-size: 24px;
+    padding: 1em;
+    margin: 1em 15em 1em 15em;
+    border-style: dashed;
+    border-width: 0.25em;
+    border-color: darkred;
+    border-radius: 2em;
+  }
+  
+  #name {
+    width: 100%;
+    font-size: 24px;
+    margin: 0.5em 0px 0.5em 0px;
+  }
+  
+  #email {
+    width: 100%;
+    font-size: 24px;
+    margin: 0.5em 0px 0.5em 0px;
+  }
+  
+  #number {
+    width: 100%;
+    font-size: 24px;
+    margin: 0.5em 0px 0.5em 0px;
+  }
+  
+  #dropdown{
+    width: 100%;
+    font-size: 24px;
+    margin: 0.5em 0px 0.5em 0px;
+  }
+  
+  .checkbox {
+    margin: 1em;
+  }
+  
+  .radio {
+    margin: 1em;
+  }
+  
+  #comments {
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+    margin: 0.5em 0px 0.5em 0px;
+  }
+  
+  #submit {
+    font-size: 36px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button {
+    font-size: 36px;
+    background-color: lightgreen;
+  }
+  
+  button:hover {
+      animation-name: background-color;
+      animation-duration: 1s;
+    }
+  
+  @keyframes background-color {
+    100% {background-color: darkgreen;}
+  }
+  
+  @media (max-width: 1425px) {
+    #survey-form {margin: 1em 5em 1em 5em;}
+  }
+  
+  @media (max-width: 925px) {
+    #survey-form {margin: auto;}
+  }
+  
+  @media (max-width: 400px) {
+    h1 {font-size: 30px;}
+    p {font-size: 18px; margin: 0.1em;}
+    #survey-form {font-size: 11.5px;}
+    #name {font-size: 11.5px;}
+    #email {font-size: 11.5px;}
+    #number {font-size: 11.5px;}
+    #dropdown {font-size: 11.5px;}
+    .checkbox {margin: auto;}
+    .radio {margin: auto;}
+    #comments {font-size: 11.5px;}
+    #submit {font-size: 20px;}
+  }

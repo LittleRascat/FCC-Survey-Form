@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+    <header>
+        <h1 id="title">Videogame Survey</h1>
+        <p id="description">A survey about videogames</p>
+      </header>
+      
+      <form id="survey-form">
+        <label id="name-label" for="name"><strong>Name:</strong></label>
+          <input id="name" type="text" placeholder="Enter your name" required><br>
+        
+        <label id="email-label" for="email"><strong>Email:</strong></label>
+          <input id="email" type="email" placeholder="Enter your email" required><br>
+        
+        <label id="number-label" for="number"><strong>How many hours a week do you play videogames?</strong></label> <br>
+          <input id="number" type="number" placeholder="Enter a number of hours" min="0" max="168"><br>
+        
+        <label id="dropdown-label" for="dropdown"><strong>What is your favorite type of videogame?</strong></label> <br>
+          <select name="game-type" id="dropdown">
+            <option value="">--Please make a selection--</option>
+            <option value="platformer">Platformers</option>
+            <option value="action-adventure">Action-Adventure</option>
+            <option value="rpgs">RPGs</option>
+            <option value="puzzlers">Puzzlers</option>
+            <option value="fighting">Fighting</option>
+            <option value="racing">Racing</option>
+            <option value="simulation">Simulation</option>
+            <option value="shooters">Shooters</option>
+            <option value="other">Other</option>
+          </select><br>
+        
+        <label id="checkbox-label" for="checkbox"><strong>What systems do you play games on?</strong> (Check all that apply)</label> <br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="playstation-5">Playstation 5<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="playstation-4/pro">Playstation 4 / Pro<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="xbox-series-x/s">Xbox Series X / S<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="xbox-one-family">Xbox One Family<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="nintendo-switch">Nintendo Switch<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="PC">PC<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="google-stadia">Google Stadia<br>
+          <input class="checkbox" type="checkbox" name="systems-played" value="other">Other<br>
+        
+        <label id="radio-label" for="radio"><strong>What system do you play on most?</strong></label> <br>
+          <input class="radio" type="radio" name="most-played-system" value="playstation-5">Playstation 5<br>
+          <input class="radio" type="radio" name="most-played-system" value="playstation-4/pro">Playstation 4 / Pro<br>
+          <input class="radio" type="radio" name="most-played-system" value="xbox-series-x/s">Xbox Series X / S<br>
+          <input class="radio" type="radio" name="most-played-system" value="xbox-one-family">Xbox One Family<br>
+          <input class="radio" type="radio" name="most-played-system" value="nintendo-switch">Nintendo Switch<br>
+          <input class="radio" type="radio" name="most-played-system" value="PC">PC<br>
+          <input class="radio" type="radio" name="most-played-system" value="google-stadia">Google Stadia<br>
+          <input class="radio" type="radio" name="most-played-system" value="other">Other<br>
+        
+        <label id="comments-label" for="comments"><strong>Please feel free to enter other consoles that you play:</strong></label><br>
+          <textarea id="comments" placeholder="Enter your comment here..."></textarea><br>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+</html>
